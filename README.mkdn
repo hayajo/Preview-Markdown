@@ -1,0 +1,10 @@
+# NAME
+
+node.js + socket.io + express sample based <http://d.hatena.ne.jp/sugyan/20110722/1311302687>
+
+# SEE ALSO
+
+* [ローカルのmarkdownファイルを変更監視しつつSocket.IOでリアルタイムプレビュー - すぎゃーんメモ](http://d.hatena.ne.jp/sugyan/20110722/1311302687)
+* [Node.js Manual & Documentation](http://nodejs.org/docs/latest/api/index.html)
+* [Socket.IO: the cross-browser WebSocket for realtime apps.](http://socket.io/#how-to-use)
+* [Express - node web framework](http://expressjs.com/guide.html)
