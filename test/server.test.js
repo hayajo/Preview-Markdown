@@ -4,7 +4,8 @@ var assert = require('assert')
 module.exports = {
     'test server': function() {
         app.observe(__dirname + '/fixture/test.md');
-        assert.response(app,
+        assert.response(
+            app,
             { url: '/' },
             {
                 status: 200,
