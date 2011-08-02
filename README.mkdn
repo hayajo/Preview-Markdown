@@ -2,6 +2,16 @@
 
 node.js + socket.io + express sample based <http://d.hatena.ne.jp/sugyan/20110722/1311302687>
 
+# TEST
+
+$ expresso -I .
+
+socket.io のテスト手法がよくわかりません...
+
+# RUN
+
+$ NODE_PATH=. node run.js <markdown_file>
+
 # SEE ALSO
 
 * [ローカルのmarkdownファイルを変更監視しつつSocket.IOでリアルタイムプレビュー - すぎゃーんメモ](http://d.hatena.ne.jp/sugyan/20110722/1311302687)

@@ -1,0 +1,19 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/gh-buttons.css')
+    - if (file)
+      script(type='text/javascript', src='/socket.io/socket.io.js')
+      script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js')
+      script(type='text/javascript')
+         var socket = io.connect();
+         socket.on("change", function (html) { document.getElementById("preview").innerHTML = html; });
+         $(function ($) {
+             $("#raw").click(function () {
+                 $("#dummy").attr("src","/raw");
+                 return false;
+             })
+         }); 
+  body!= body
